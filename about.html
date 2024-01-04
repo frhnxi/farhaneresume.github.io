@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Resume</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body id="about-page" class="about-body">
+    <header>
+        <h1>About Me</h1>
+    </header>
+
+    <nav>
+        <img src= "C:\Users\USER\Documents\IMS 458\Individual Website\Image\logo.png" alt="Logo" class="logo">
+        <a href="contact.html">Conctact Me</a>
+        <a href="skills.html">Skills</a>
+        <a href="education.html">Education</a>
+        <a href="about.html">About</a>
+        <a href="index.html">Home</a>
+    </nav>
+
+    <section class="about-section">
+        <div class="text-on-right">
+            <h2>ABOUT ME</h2>
+            <p>Hello! I'm Muhammad Farhan Bin Nordin, a dedicated university student passionate about Information System and Programming. This website serves as a digital portfolio showcasing my resume, academic journey, and the services I offer. From academic achievements to project highlights, explore my experiences and feel free to connect. I'm excited to share my skills and collaborate with you!.</p>
+            <a href="#" id="openVideoButton" class="button-vid" onclick="openModal()">Video Resume</a>
+        </div>
+        <img src="C:\Users\USER\Documents\IMS 458\Individual Website\Image\myimage3.png" alt="Formal Image">
+    
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Farhan. All rights reserved.</p>
+    </footer>
+
+    <div id="videoModal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <video controls>
+                <source src="C:\Users\USER\Documents\IMS 458\Individual Website\Video\Resume video_Muhammad Farhan Bin Nordin_2023500221.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script>
+        function openModal() {
+            document.getElementById('videoModal').style.display = 'block';
+        }
+    
+        function closeModal() {
+            document.getElementById('videoModal').style.display = 'none';
+        }
+    </script>
+    
+
+</body>
+</html>

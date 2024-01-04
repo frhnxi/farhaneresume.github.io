@@ -1,0 +1,545 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body, h1, h2, p {
+   
+  margin: 0;
+  padding: 0;
+}
+
+h2{
+  font-family: Verdana;
+}
+
+.index-body {
+  background-image: url('C:\\Users\\USER\\Documents\\IMS 458\\Individual Website\\Image\\blue background4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+.about-body {
+  background-image: url('C:\\Users\\USER\\Documents\\IMS 458\\Individual Website\\Image\\blue background5.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+}
+
+.education-body {
+  background-image: url('C:\\Users\\USER\\Documents\\IMS 458\\Individual Website\\Image\\blue background6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+ 
+}
+
+.skills-body {
+  background-image: url('C:\\Users\\USER\\Documents\\IMS 458\\Individual Website\\Image\\blue background6.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat-y;
+ 
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  box-sizing: inherit;
+  font-family: Arial;
+  background-color:rgb(81, 173, 210)
+}
+
+h1 {
+  background-color: #333;
+  color: #fff;
+  
+  text-align: center;
+  padding: 20px;
+  margin-left: 0px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 20px; /* Add some spacing below the heading for better visual appearance */
+  text-align: center;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  background-color: #444;
+  overflow: hidden;
+}
+
+nav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+section {
+  padding: 20px;
+}
+
+/* Styles specific to index.html */
+#index-section {
+  text-align: center;
+
+}
+
+
+
+.index-paragraph {
+  /* Styles for <p> on index.html */
+  color: #555; /* Adjust the color as needed */
+  font-size: 25px;
+  text-align: center;
+}
+
+
+
+.about-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Styles specific to about.html */
+
+
+.about-paragraph {
+  /* Styles for <p> on about.html */
+  color: #777; /* Adjust the color as needed */
+}
+
+.about-section p{
+
+  font-size: 20px;
+}
+
+.text-on-right {
+  flex: 1;
+  padding: 20px; /* Adjust the padding as needed */
+}
+
+.text-on-right h2,
+.text-on-right p {
+  color: #333; /* Adjust the text color as needed */
+}
+
+.text-on-right p {
+   /* Adjust the text color as needed */
+  font-size: 25px; /* Adjust the font size as needed */
+  line-height: 1.5; /* Adjust the line height as needed */
+  /* Add any other styles you want to apply to the <p> element */
+}
+
+.about-section img {
+  width: 30%; 
+  height: auto; 
+  margin-top: 20px; 
+  border-radius: 10px; 
+}
+
+.button-vid {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button-vid:hover {
+  background-color: #0056b3;
+}
+
+modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.education{
+  justify-content: center;
+  align-items: center;
+}
+
+.education-container{
+  width: 100%;
+  padding: 35px 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  
+}
+
+.book-image {
+  width: 30%; 
+  height: auto; 
+  margin-top: 20px; 
+  border-radius: 10px;
+  margin-left: 100px; 
+}
+
+main.row{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 20px;
+}
+
+.col header.title{
+  color: #11a372;
+  
+}
+
+.col .contents{
+  padding: 0px 30px;
+  border-left: 2px solid #bababa;
+}
+
+.col .contents .box{
+  position: relative;
+  padding: 20px;
+  border: 1px solid #eaeaea;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.4s;
+  margin-bottom: 20px;
+}
+
+.col .contents .box:hover{
+  box-shadow: 0px 3px 12px 0px #ccc;
+  border: 1px solid transparent;
+}
+
+.col .contents .box::before{
+  content: '';
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  right: calc(100% + 22px);
+  top: 0;
+  background-color: #11a372;
+  border: 2px solid white;
+}
+
+.box h4{
+  position: relative;
+  
+}
+
+.box h3{
+  font-size: 19px;
+  padding: 10px 0px 6px;
+  font-family: helvetica;
+  color: #444;
+}
+
+.box p{
+  line-height: 1.2;
+  color: #666;
+  font-size: 17px;
+
+}
+
+.skills{
+  width: 500px;
+  margin: 60px auto;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.language{
+  width: 500px;
+  margin: 60px auto;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+
+
+.skills li{
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.bar{
+  background: #353b48;
+  display: block;
+  height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-beizer(.25,.8,.25,1);
+  
+}
+
+.bar:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.bar span{
+  height: 20px;
+  float: left;
+  background: linear-gradient(135deg, rgba(236, 0, 140, 1)0%, rgba(252, 103, 103, 1)100%);
+}
+
+.microsoftoffice{
+  width: 80%;
+  animation: microsoftoffice 3s;
+}
+
+.problemsolving{
+  width: 85%;
+  animation: problemsolving 3s;
+}
+
+.programming{
+  width: 60%;
+  animation: programming 3s;
+}
+
+.critical{
+  width: 90%;
+  animation: critical 3s;
+}
+
+.malay{
+  width: 90%;
+  animation: malay 3s;
+}
+
+.english{
+  width: 80%;
+  animation: english 3s;
+}
+
+.japanese{
+  width: 30%;
+  animation: japanese 3s;
+}
+
+
+@keyframes microsoftoffice{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes problemsolving{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 85%;
+  }
+}
+
+@keyframes programming{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 60%;
+  }
+}
+
+@keyframes critical{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes malay{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 90%;
+  }
+}
+
+@keyframes englsih{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 80%;
+  }
+}
+
+@keyframes japanese{
+  0%{
+    width: 0%;
+  }
+  100%{
+    width: 30%;
+  }
+}
+
+.contact{
+  min-height: 100vh;
+  padding: 50px;
+  text-align: center;
+}
+
+.contact-container{
+  max-width: 800px;
+  margin:0 auto;
+}
+
+.contact-container h2{
+  font-size: 36px;
+  margin-bottom: 40px;
+  color:#333;
+}
+
+
+
+.contact-form{
+  text-align: left;
+}
+
+.contact-form h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+
+input, textarea{
+  width: 100%;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #333;
+}
+
+input:focus,
+textarea:focus{
+  outline: none;
+  box-shadow: 0 0 8px #bbb;
+}
+
+button{
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+button:hover{
+  background-color: #45a049;
+}
+
+.contact-info{
+  text-align: left;
+}
+
+.contact-info h3{
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.contact-info p{
+  margin-bottom: 10px;
+  color:#555;
+}
+
+.contact-info i{
+  color: #4caf50;
+  margin-right: 10px;
+}
+
+.logo {
+  width: 200px; 
+  height: auto; 
+  margin-right: 10px; 
+}
+
+
+
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  
+  width: 100%;
+  margin-top: auto;
+}
+
+
+  
