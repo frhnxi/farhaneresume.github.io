@@ -16,7 +16,7 @@ h2{
 }
 
 .index-body {
-  background-image: url('C:\\Users\\USER\\Documents\\IMS 458\\Individual Website\\Image\\blue background4.jpg');
+  background-image: url('Image\\blue background4.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,7 @@ h2{
 }
 
 .about-body {
-  background-image: url('C:\\Users\\USER\\Documents\\IMS 458\\Individual Website\\Image\\blue background5.jpg');
+  background-image: url('Image\\blue background5.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -32,7 +32,7 @@ h2{
 }
 
 .education-body {
-  background-image: url('C:\\Users\\USER\\Documents\\IMS 458\\Individual Website\\Image\\blue background6.jpg');
+  background-image: url('Image\\blue background6.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: repeat-y;
@@ -40,7 +40,7 @@ h2{
 }
 
 .skills-body {
-  background-image: url('C:\\Users\\USER\\Documents\\IMS 458\\Individual Website\\Image\\blue background6.jpg');
+  background-image: url('Image\\blue background6.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: repeat-y;
